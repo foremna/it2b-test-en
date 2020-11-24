@@ -958,23 +958,32 @@ main {
 .language__list {
     width: 70px;
 
-    .languages__link {
+    .language__item {
         display: block;
+
+        &.language__item--en {
+            .language__link {
+                color: $blue;
+            }
+        }
+
+        &.language__item--il {
+            .language__link {
+                color: $violet;
+            }
+        }
+
+        &.language__item--ar {
+            .language__link {
+                color: $green;
+            }
+        }
+    }
+
+    .language__link {
         font-size: 14px;
         color: slategrey;
         text-decoration: none;
-
-        &.languages__link--en {
-            color: #21BBFE;
-        }
-
-        &.languages__link--il {
-            color: #1A7BFF;
-        }
-
-        &.languages__link--ar {
-            color: #149B6A;
-        }
     }
     
     &.close {
