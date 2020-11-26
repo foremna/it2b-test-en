@@ -331,7 +331,7 @@ main {
 
     &.button--primary {
         color: #FFFFFF;
-        background: rgba(130, 130, 130, 0.7);
+        background: rgba(47, 128, 237, 0.5);
     }
 
     &:hover {
@@ -594,8 +594,8 @@ main {
         padding: 17px 19px;
         font-size: 18px;
         background-color: transparent;
-        border: 1px solid #828282;
-        filter: drop-shadow(0px 0px 7px #7C7C7C);
+        border: 1px solid $violet;
+        filter: drop-shadow(0px 0px 7px $violet);
         border-radius: 20px;
         transition: .3s ease all;
 
@@ -692,7 +692,7 @@ main {
         }
 
         &:hover {
-            filter: drop-shadow(0px 0px 3px #7C7C7C);
+            filter: drop-shadow(0px 0px 3px $violet);
         }
 
         &:focus {
@@ -772,8 +772,8 @@ main {
         padding: 17px 19px;
         font-size: 18px;
         background-color: transparent;
-        border: 1px solid #828282;
-        filter: drop-shadow(0px 0px 7px #7C7C7C);
+        border: 1px solid $violet;
+        filter: drop-shadow(0px 0px 7px $violet);
         border-radius: 20px;
         transition: .3s ease all;
 
@@ -837,7 +837,7 @@ main {
         }
 
         &:hover {
-            filter: drop-shadow(0px 0px 3px #7C7C7C);
+            filter: drop-shadow(0px 0px 3px $violet);
         }
 
         &:focus {
@@ -1170,7 +1170,7 @@ main {
         border-top: 15px solid transparent;
         border-bottom: 15px solid transparent;
         border-left: 24px solid $substrate;;
-        filter: drop-shadow(0 0 4px #7C7C7C);
+        filter: drop-shadow(0 0 4px $violet);
         transform: translateY(-50%);
         transition: .3s ease all;
 
@@ -1518,7 +1518,7 @@ main {
     }
 
     &.important--ru {
-        background-color: $gray;
+        background: rgba(47, 128, 237, 0.5);
     }
 }
 
@@ -1675,8 +1675,8 @@ main {
             height: 20px;
             top: 50%;
             left: 20px;
-            border: 1px solid #828282;
-            filter: drop-shadow(0px 0px 7px #7C7C7C);
+            border: 1px solid $violet;
+            filter: drop-shadow(0px 0px 7px $violet);
             border-radius: 50px;
             transform: translateY(-50%);
 
@@ -1900,7 +1900,7 @@ main {
             border-top: 15px solid transparent;
             border-bottom: 15px solid transparent;
             border-left: 24px solid $substrate;;
-            filter: drop-shadow(0 0 4px #7C7C7C);
+            filter: drop-shadow(0 0 4px $violet);
             transition: .3s ease all;
 
             @media screen and (min-width: 768px) {

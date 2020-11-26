@@ -253,7 +253,7 @@ main {
 
 .button.button--primary {
   color: #FFFFFF;
-  background: rgba(130, 130, 130, 0.7);
+  background: rgba(47, 128, 237, 0.5);
 }
 
 .button:hover {
@@ -342,8 +342,8 @@ main {
   padding: 17px 19px;
   font-size: 18px;
   background-color: transparent;
-  border: 1px solid #828282;
-  filter: drop-shadow(0px 0px 7px #7C7C7C);
+  border: 1px solid #2F80ED;
+  filter: drop-shadow(0px 0px 7px #2F80ED);
   border-radius: 20px;
   transition: .3s ease all;
 }
@@ -380,7 +380,7 @@ main {
 }
 
 .input-container input:hover {
-  filter: drop-shadow(0px 0px 3px #7C7C7C);
+  filter: drop-shadow(0px 0px 3px #2F80ED);
 }
 
 .input-container input:focus + .title-input {
@@ -423,8 +423,8 @@ main {
   padding: 17px 19px;
   font-size: 18px;
   background-color: transparent;
-  border: 1px solid #828282;
-  filter: drop-shadow(0px 0px 7px #7C7C7C);
+  border: 1px solid #2F80ED;
+  filter: drop-shadow(0px 0px 7px #2F80ED);
   border-radius: 20px;
   transition: .3s ease all;
 }
@@ -440,7 +440,7 @@ main {
 }
 
 .textarea-container .textarea:hover {
-  filter: drop-shadow(0px 0px 3px #7C7C7C);
+  filter: drop-shadow(0px 0px 3px #2F80ED);
 }
 
 .textarea-container .textarea:focus + .title-input {
@@ -575,7 +575,7 @@ main {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 24px solid #F0F0F3;
-  filter: drop-shadow(0 0 4px #7C7C7C);
+  filter: drop-shadow(0 0 4px #2F80ED);
   transform: translateY(-50%);
   transition: .3s ease all;
 }
@@ -676,7 +676,7 @@ main {
 }
 
 .important.important--ru {
-  background-color: #a8a8a8;
+  background: rgba(47, 128, 237, 0.5);
 }
 
 .down-line-right {
@@ -724,8 +724,8 @@ main {
   height: 20px;
   top: 50%;
   left: 20px;
-  border: 1px solid #828282;
-  filter: drop-shadow(0px 0px 7px #7C7C7C);
+  border: 1px solid #2F80ED;
+  filter: drop-shadow(0px 0px 7px #2F80ED);
   border-radius: 50px;
   transform: translateY(-50%);
 }
@@ -831,7 +831,7 @@ main {
   border-top: 15px solid transparent;
   border-bottom: 15px solid transparent;
   border-left: 24px solid #F0F0F3;
-  filter: drop-shadow(0 0 4px #7C7C7C);
+  filter: drop-shadow(0 0 4px #2F80ED);
   transition: .3s ease all;
 }
 
@@ -1312,7 +1312,7 @@ header {
 
 footer {
   position: relative;
-  background: rgba(130, 130, 130, 0.7);
+  background: rgba(47, 128, 237, 0.7);
   z-index: 99;
 }
 
